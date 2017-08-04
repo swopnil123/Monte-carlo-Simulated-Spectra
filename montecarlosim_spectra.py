@@ -2,7 +2,7 @@
 """
 Created on Thu Nov 17 08:20:51 2016
 
-@author: HP
+@author: Swopnil Ojha
 """
 import os 
 import numpy as np
@@ -12,7 +12,7 @@ from scipy import stats
 
 from numba import jit 
 
-"""This code reads the database containing median specctra and simulates response 
+"""This code reads the database containing median spectra and simulates response 
 spectra by using monte carlo simulation on the basis of the correlation coefficient 
 between logarithmic spectral acceleration at two different periods as proposed by 
 Jayaram and Baker
